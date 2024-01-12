@@ -26,6 +26,7 @@ class MyWidget(QMainWindow):
     def paint(self):
         self.do_paint = True
         self.repaint()
+        print(123)
 
     def draw_okr(self, qp):
         qp.setBrush(QColor('yellow'))
